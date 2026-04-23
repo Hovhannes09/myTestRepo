@@ -13,6 +13,9 @@ app.use(routes);
 
 const server = createServer(app);
 
+console.log('log for testing');
+
+
 server.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
